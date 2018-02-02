@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  test:
+    image: test
+    build:
+      context: ./Test
+      dockerfile: Dockerfile
